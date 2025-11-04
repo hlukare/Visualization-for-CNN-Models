@@ -40,75 +40,6 @@ The heatmap helps to understand what part of the image influenced the model’s 
 ## Example Visualizations:
 The following outputs are generated as part of the Grad-CAM process. Each input image is processed through the **Xception**, **ResNet50**, and **VGG19** models, and the respective Grad-CAM heatmaps are shown as outputs.
 
-### Input Image 1: **Snow Leopard**
-   ![input_image_1.jpg](./images/input_image_1.jpg)  
-   This is the original input image that was processed by all three models for classification.
-
-1. **xception_output_1.png**:  
-   ![xception_output_1.png](./images/xception_output_1.png)  
-   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the Xception model.
-
-2. **resnet50_output_1.png**:  
-   ![resnet50_output_1.png](./images/resnet50_output_1.png)  
-   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the ResNet50 model.
-
-3. **vgg19_output_1.png**:  
-   ![vgg19_output_1.png](./images/vgg19_output_1.png)  
-   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the VGG19 model.
-
----
-
-### Input Image 2: **Monument Pillar**
-   ![input_image_2.jpg](./images/input_image_2.jpg)  
-   This is the original input image that was processed by all three models for classification.
-
-1. **xception_output_2.png**:  
-   ![xception_output_2.png](./images/xception_output_2.png)  
-   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the Xception model.
-
-2. **resnet50_output_2.png**:  
-   ![resnet50_output_2.png](./images/resnet50_output_2.png)  
-   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the ResNet50 model.
-
-3. **vgg19_output_2.png**:  
-   ![vgg19_output_2.png](./images/vgg19_output_2.png)  
-   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the VGG19 model.
-
----
-
-### Input Image 3: **War Plane (SR 71)**
-   ![input_image_3.jpg](./images/input_image_3.jpg)  
-   This is the original input image that was processed by all three models for classification.
-
-1. **xception_output_3.png**:  
-   ![xception_output_3.png](./images/xception_output_3.png)  
-   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the Xception model.
-
-2. **resnet50_output_3.png**:  
-   ![resnet50_output_3.png](./images/resnet50_output_3.png)  
-   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the ResNet50 model.
-
-3. **vgg19_output_3.png**:  
-   ![vgg19_output_3.png](./images/vgg19_output_3.png)  
-   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the VGG19 model.
-
----
-
-### Input Image 4: **Skyscrapers**
-   ![input_image_4.jpg](./images/input_image_4.jpg)  
-   This is the original input image that was processed by all three models for classification.
-
-1. **xception_output_4.png**:  
-   ![xception_output_4.png](./images/xception_output_4.png)  
-   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the Xception model.
-
-2. **resnet50_output_4.png**:  
-   ![resnet50_output_4.png](./images/resnet50_output_4.png)  
-   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the ResNet50 model.
-
-3. **vgg19_output_4.png**:  
-   ![vgg19_output_4.png](./images/vgg19_output_4.png)  
-   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the VGG19 model.
 
 ## Requirements
 
@@ -121,3 +52,4 @@ To run this project, you'll need Python 3.6 or later and the following libraries
 - `matplotlib` - For plotting and visualizing the heatmaps.
 - `Pillow` - Python Imaging Library (PIL) for image handling.
 - `requests` - To fetch ImageNet labels.
+
